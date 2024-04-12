@@ -23,7 +23,7 @@ const Index = () => {
         <div className="main-slider-active">
           <HomeSlider1 />
         </div>
-        <img
+        {/* <img
           className="bg-leaf"
           src="assets/images/slider/slider-bg-leaf.png"
           alt="Shape"
@@ -32,7 +32,7 @@ const Index = () => {
           className="bg-shape"
           src="assets/images/slider/slider-bg-shape.png"
           alt="Shape"
-        />
+        /> */}
       </section>
       {/* Slider Section End */}
       {/* Category Section Start */}
