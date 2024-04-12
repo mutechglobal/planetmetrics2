@@ -42,17 +42,16 @@ const Index = () => {
             <div className="col-lg-7 wow fadeInUp delay-0-2s">
               <div className="section-title mb-20">
                 <span className="sub-title mb-20">
-                  Popular Foods and Vegetables
+                  What We Do
                 </span>
-                <h2>Quality Fruits &amp; Vegetables</h2>
+                <h2>Samrt Solutions for Sustainable Future</h2>
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp delay-0-4s">
               <div className="text mb-20">
                 <p>
-                  On the other hand we denounce with righteou indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment so blinded by desire
+                Welcome to Planetmetrics, where our commitment lies in the promotion of sustainability and protection of the environment. 
+                Our mission is to provide innovative and effective solutions to address the pressing environmental challenges facing the world today
                 </p>
               </div>
             </div>
@@ -63,7 +62,7 @@ const Index = () => {
                 <img src="assets/images/category/icon1.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Organic Fruits</Link>
+                <Link href="/services">Sustainability Modeling</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -72,7 +71,7 @@ const Index = () => {
                 <img src="assets/images/category/icon2.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Vegetables</Link>
+                <Link href="/services">Data Analysis & Mitigation</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -81,7 +80,7 @@ const Index = () => {
                 <img src="assets/images/category/icon3.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Sea Fish’s</Link>
+                <Link href="/services">Change Detection</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -90,7 +89,7 @@ const Index = () => {
                 <img src="assets/images/category/icon4.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Crisp Bakery</Link>
+                <Link href="/services">GHG Accounting</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -99,7 +98,7 @@ const Index = () => {
                 <img src="assets/images/category/icon5.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Chiken Egg</Link>
+                <Link href="/services">Remote Sensing</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -130,8 +129,8 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="about-content rpt-65 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-35">
-                  <span className="sub-title mb-20">About Company</span>
-                  <h2>Organic &amp; Helathy Foods Provider Farming</h2>
+                  <span className="sub-title mb-20">Who We Are</span>
+                  <h2>Experience a New Age of Intelligence</h2>
                 </div>
                 <Tab.Container defaultActiveKey={"agriculture"}>
                   <Nav className="nav jusctify-content-between">
@@ -144,9 +143,7 @@ const Index = () => {
                       >
                         <i className="flaticon-spa" />
                         <h4>
-                          Agriculture
-                          <br />
-                          &amp; Foods
+                        Our Mission
                         </h4>
                       </Nav.Link>
                     </li>
@@ -159,9 +156,7 @@ const Index = () => {
                       >
                         <i className="flaticon-spa" />
                         <h4>
-                          Vegetables
-                          <br />
-                          &amp; Fruits
+                        Our Vision
                         </h4>
                       </Nav.Link>
                     </li>
@@ -169,10 +164,8 @@ const Index = () => {
                   <Tab.Content className="tab-content pt-25">
                     <Tab.Pane className="tab-pane fade" eventKey="agriculture">
                       <p>
-                        On the other hand we denounce with righteous indignation
-                        and dislike men who are beguiled and demoralized by the
-                        charms of pleasure of the moment so blinded by desire,
-                        that they cannot foresee the pain
+                      
+                        We Drive with the purpose of producing ideas and recommendations to address the objectives of sustainable development
                       </p>
                       <div className="author-wrap">
                         <img
@@ -180,8 +173,8 @@ const Index = () => {
                           alt="Authro"
                         />
                         <div className="title">
-                          <h4>Michael D. Foreman</h4>
-                          <span>CEO &amp; Founder</span>
+                          <h4>Ujjwal Tripathi</h4>
+                          <span>CEO &amp; Co-Founder</span>
                         </div>
                         <img
                           src="assets/images/about/signature.png"
@@ -191,10 +184,7 @@ const Index = () => {
                     </Tab.Pane>
                     <Tab.Pane className="tab-pane fade" eventKey="vegetables">
                       <p>
-                        Charms of pleasure of the moment so blinded by desire,
-                        that they cannot foresee the pain On the other hand we
-                        denounce with righteous indignation and dislike men who
-                        are beguiled and demoralized by the
+                      To create connections and efforts aimed at attaining the sustainable development goals
                       </p>
                       <div className="author-wrap">
                         <img
@@ -202,8 +192,8 @@ const Index = () => {
                           alt="Authro"
                         />
                         <div className="title">
-                          <h4>Russell J. Knoll</h4>
-                          <span>CEO &amp; Founder</span>
+                          <h4>S P Tiwari</h4>
+                          <span>COO &amp; Co-Founder</span>
                         </div>
                         <img
                           src="assets/images/about/signature.png"
@@ -219,245 +209,125 @@ const Index = () => {
         </div>
       </section>
       {/* About Section End */}
-      {/* Offer Banners Start */}
-      <section className="offer-banners-area">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-xl-4 col-md-6">
-              <div className="offer-banner-item color-two wow fadeInUp delay-0-2s">
-                <div className="content">
-                  <span className="sub-title">35% Off Foods</span>
-                  <h4>Organic Vegetables</h4>
-                  <p>Best Foods For Your Family</p>
-                  <Link href="/shop-grid">
-                    <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="image">
-                  <img
-                    src="assets/images/offers/offer-banner1.png"
-                    alt="Offer Banner"
-                  />
-                </div>
-                <img
-                  className="offer-bg"
-                  src="assets/images/offers/offer-baner-bg1.png"
-                  alt="Offer BG"
-                />
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="offer-banner-item wow fadeInUp delay-0-4s">
-                <div className="content">
-                  <span className="sub-title">35% Off Foods</span>
-                  <h4>Fresh Organic Fruits</h4>
-                  <p>Best Foods For Your Family</p>
-                  <Link href="/shop-grid">
-                    <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="image">
-                  <img
-                    src="assets/images/offers/offer-banner2.png"
-                    alt="Offer Banner"
-                  />
-                </div>
-                <img
-                  className="offer-bg"
-                  src="assets/images/offers/offer-baner-bg2.png"
-                  alt="Offer BG"
-                />
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="offer-banner-item color-three wow fadeInUp delay-0-6s">
-                <div className="content">
-                  <span className="sub-title">35% Off Foods</span>
-                  <h4>Ripe Strawberries</h4>
-                  <p>Best Foods For Your Family</p>
-                  <Link href="/shop-grid">
-                    <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="image">
-                  <img
-                    src="assets/images/offers/offer-banner3.png"
-                    alt="Offer Banner"
-                  />
-                </div>
-                <img
-                  className="offer-bg"
-                  src="assets/images/offers/offer-baner-bg3.png"
-                  alt="Offer BG"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Offer Banners End */}
+    
       {/* Product Section Start */}
       <section className="product-section pt-100 rpt-70 pb-130 rpb-100">
         <div className="container-fluid">
           <div className="section-title text-center mb-60">
             <span className="sub-title mb-20">
-              Popular Foods and Vegetables
+              Our Services
             </span>
-            <h2>Quality Fruits &amp; Vegetables</h2>
+            <h2>Analysis  &amp; Mitigation</h2>
           </div>
           <Slider {...productActive} className="product-active">
             <div className="product-item wow fadeInUp delay-0-2s">
-              <span className="offer">53 Off</span>
+              
               <div className="image">
                 <img src="assets/images/products/product1.png" alt="Product" />
               </div>
               <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
+                
                 <h5>
-                  <Link href="/product-details">Organic Brocolli</Link>
+                  <Link href="/product-details">Earth observations</Link>
                 </h5>
                 <span className="price">
-                  <del>25</del>
+                  
                   <span>18</span>
                 </span>
               </div>
             </div>
-            <div className="product-item wow fadeInUp delay-0-3s">
+            <div className="product-item wow fadeInUp delay-0-2s">
+              
               <div className="image">
-                <img src="assets/images/products/product2.png" alt="Product" />
+                <img src="assets/images/products/product1.png" alt="Product" />
               </div>
               <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
+                
                 <h5>
-                  <Link href="/product-details">Fresh Carrots</Link>
+                  <Link href="/product-details">Satellite Remote Sensing</Link>
                 </h5>
                 <span className="price">
-                  <span>49.58</span>
-                </span>
-              </div>
-            </div>
-            <div className="product-item wow fadeInUp delay-0-4s">
-              <span className="offer bg-red">sale</span>
-              <div className="image">
-                <img src="assets/images/products/product3.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Organic Brocolli</Link>
-                </h5>
-                <span className="price">
-                  <del>25</del>
+                  
                   <span>18</span>
                 </span>
               </div>
             </div>
-            <div className="product-item wow fadeInUp delay-0-5s">
-              <span className="offer">20 Off</span>
+            <div className="product-item wow fadeInUp delay-0-2s">
+              
               <div className="image">
-                <img src="assets/images/products/product4.png" alt="Product" />
+                <img src="assets/images/products/product1.png" alt="Product" />
               </div>
               <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
+                
                 <h5>
-                  <Link href="/product-details">Chiken Egg</Link>
+                  <Link href="/product-details">Environmental Impact Assessments</Link>
                 </h5>
                 <span className="price">
-                  <del>55</del>
-                  <span>36</span>
-                </span>
-              </div>
-            </div>
-            <div className="product-item wow fadeInUp delay-0-6s">
-              <div className="image">
-                <img src="assets/images/products/product5.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Fresh Gooseberry</Link>
-                </h5>
-                <span className="price">
-                  <span>205</span>
-                </span>
-              </div>
-            </div>
-            <div className="product-item wow fadeInUp delay-0-7s">
-              <span className="offer">53 Off</span>
-              <div className="image">
-                <img src="assets/images/products/product6.png" alt="Product" />
-              </div>
-              <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
-                <h5>
-                  <Link href="/product-details">Fresh Croissants</Link>
-                </h5>
-                <span className="price">
-                  <del>25</del>
+                  
                   <span>18</span>
                 </span>
               </div>
             </div>
-            <div className="product-item wow fadeInUp delay-0-8s">
-              <span className="offer">25 Off</span>
+            <div className="product-item wow fadeInUp delay-0-2s">
+              
               <div className="image">
-                <img src="assets/images/products/product7.png" alt="Product" />
+                <img src="assets/images/products/product1.png" alt="Product" />
               </div>
               <div className="content">
-                <div className="ratting">
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                  <i className="fas fa-star" />
-                </div>
+                
                 <h5>
-                  <Link href="/product-details">Chiken Egg’s</Link>
+                  <Link href="/product-details">Sustainable Agriculture and Forestry</Link>
                 </h5>
                 <span className="price">
-                  <del>25</del>
+                  
+                  <span>18</span>
+                </span>
+              </div>
+            </div>
+            <div className="product-item wow fadeInUp delay-0-2s">
+              
+              <div className="image">
+                <img src="assets/images/products/product1.png" alt="Product" />
+              </div>
+              <div className="content">
+                
+                <h5>
+                  <Link href="/product-details">Climate Change Mitigation</Link>
+                </h5>
+                <span className="price">
+                  
+                  <span>18</span>
+                </span>
+              </div>
+            </div>
+            <div className="product-item wow fadeInUp delay-0-2s">
+              
+              <div className="image">
+                <img src="assets/images/products/product1.png" alt="Product" />
+              </div>
+              <div className="content">
+                
+                <h5>
+                  <Link href="/product-details">Water Resource Management</Link>
+                </h5>
+                <span className="price">
+                  
+                  <span>18</span>
+                </span>
+              </div>
+            </div>
+            <div className="product-item wow fadeInUp delay-0-2s">
+              
+              <div className="image">
+                <img src="assets/images/products/product1.png" alt="Product" />
+              </div>
+              <div className="content">
+                
+                <h5>
+                  <Link href="/product-details">Machine Learning</Link>
+                </h5>
+                <span className="price">
+                  
                   <span>18</span>
                 </span>
               </div>

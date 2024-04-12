@@ -7,7 +7,7 @@ import MobileMenu from "./MobileMenu";
 const Header = ({ header }) => {
   switch (header) {
     case 1:
-      return <Header1 />;
+      return <DefaultHeader />;
  
 
     default:
@@ -41,44 +41,21 @@ const SearchBtn = () => {
 const DaskTopMenu = () => (
   <ul className="navigation clearfix d-none d-lg-flex">
     <li>
-      <a href="#">Home</a>
+      <Link href="/.">Home</Link>
     </li>
-    <li className="dropdown">
-      <a href="#">pages</a>
-      <ul>
-        <PagesDasktop />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
+    <li>
+      <Link href="/about">About Us</Link>
     </li>
-    <li className="dropdown">
-      <a href="#">portfolio</a>
-      <ul>
-        <Portfolio />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
+    <li>
+      <Link href="/services">Services</Link>
     </li>
-    <li className="dropdown">
-      <a href="#">blog</a>
-      <ul>
-        <Blog />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
+    <li>
+      <Link href="/portfolio-fluid">Portfolio</Link>
     </li>
-    <li className="dropdown">
-      <a href="#">shop</a>
-      <ul>
-        <Shop />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
+    <li>
+      <Link href="/blog-grid">Blog</Link>
     </li>
+    
     <Contact />
   </ul>
 );
@@ -132,7 +109,7 @@ const DefaultHeader = () => (
                 <ul>
                   <li>
                     <i className="far fa-envelope" /> <b>Email Us :</b>{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:info@planetmetrics.us">info@planetmetrics.us</a>
                   </li>
                   <li>
                     <i className="far fa-clock" /> <b>Working Hours :</b> Monday
@@ -146,7 +123,7 @@ const DefaultHeader = () => (
                 <ul>
                   <li>
                     <i className="far fa-phone" /> <b>Call :</b>{" "}
-                    <a href="callto:+012(345)67899">+012 (345) 678 99</a>
+                    <a href="callto:+012(345)67899">(518)730-8922</a>
                   </li>
                   <li>
                     <div className="social-style-one">
@@ -196,7 +173,7 @@ const DefaultHeader = () => (
           {/* Menu Button */}
           <div className="menu-icons">
             {/* Nav Search */}
-            <div className="nav-search py-15">
+            {/* <div className="nav-search py-15">
               <SearchBtn />
             </div>
             <button className="cart">
@@ -210,7 +187,7 @@ const DefaultHeader = () => (
               <a className="theme-btn">
                 Consultations <i className="fas fa-angle-double-right" />
               </a>
-            </Link>
+            </Link> */}
             {/* menu sidbar */}
             <div className="menu-sidebar" onClick={() => sidebarToggle()}>
               <button>
@@ -226,109 +203,5 @@ const DefaultHeader = () => (
     {/*End Header Upper*/}
   </header>
 );
-const Header1 = () => (
-  <header className="main-header menu-absolute">
-    <div className="header-top-wrap bg-light-green text-white py-10">
-      <div className="container-fluid">
-        <div className="header-top">
-          <div className="row">
-            <div className="col-xl-7 col-lg-6">
-              <div className="top-left">
-                <ul>
-                  <li>
-                    <i className="far fa-envelope" /> <b>Email Us :</b>{" "}
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
-                  </li>
-                  <li>
-                    <i className="far fa-clock" /> <b>Working Hours :</b> Monday
-                    - Friday, 08 am - 05 pm
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-5 col-lg-6">
-              <div className="top-right text-lg-right">
-                <ul>
-                  <li>
-                    <i className="far fa-phone" /> <b>Call :</b>{" "}
-                    <a href="callto:+012(345)67899">+012 (345) 678 99</a>
-                  </li>
-                  <li>
-                    <div className="social-style-one">
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-youtube" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    {/*Header-Upper*/}
-    <div className="header-upper">
-      <div className="container-fluid clearfix">
-        <div className="header-inner d-flex align-items-center">
-          <div className="logo-outer">
-            <div className="logo">
-              <Link href="/">
-                <a>
-                  <img
-                    src="assets/images/logos/logo.png"
-                    alt="Logo"
-                    title="Logo"
-                  />
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="nav-outer clearfix">
-            {/* Main Menu */}
-            <Nav />
-            {/* Main Menu End*/}
-          </div>
-          {/* Menu Button */}
-          <div className="menu-icons">
-            {/* Nav Search */}
-            <div className="nav-search py-15">
-              <SearchBtn />
-            </div>
-            <button className="cart">
-              <i className="far fa-shopping-basket" />
-              <span>5</span>
-            </button>
-            <button className="user">
-              <i className="far fa-user-circle" />
-            </button>
-            <Link href="/contact">
-              <a className="theme-btn">
-                Consultations <i className="fas fa-angle-double-right" />
-              </a>
-            </Link>
-            {/* menu sidbar */}
-            <div className="menu-sidebar" onClick={() => sidebarToggle()}>
-              <button>
-                <i className="far fa-ellipsis-h" />
-                <i className="far fa-ellipsis-h" />
-                <i className="far fa-ellipsis-h" />
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    {/*End Header Upper*/}
-  </header>
-);
+
 
