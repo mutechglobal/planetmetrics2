@@ -44,7 +44,7 @@ const Index = () => {
                 <span className="sub-title mb-20">
                   What We Do
                 </span>
-                <h2>Samrt Solutions for Sustainable Future</h2>
+                <h2>Smart Solutions for Sustainable Future</h2>
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp delay-0-4s">
