@@ -18,7 +18,7 @@ const ContactUs = () => {
                 </div>
                 <div className="content">
                   <h4>Location</h4>
-                  <span>57 Main Street, 2nd Block 3rd Floor, New York</span>
+                  <span>418 Broadway, Albany New York 12207</span>
                 </div>
               </div>
             </div>
@@ -29,9 +29,9 @@ const ContactUs = () => {
                 </div>
                 <div className="content">
                   <h4>Email Us</h4>
-                  <a href="mailto:organicfarm@mail.net">organicfarm@mail.net</a>
+                  <a href="mailto:info@planetmetrics.us">info@planetmetrics.us</a>
                   <br />
-                  <a href="mailto:support@info.com">support@info.com</a>
+                  <a href="mailto:support@planetmetrics.us">support@planetmetrics.us</a>
                   <br />
                 </div>
               </div>
@@ -43,9 +43,9 @@ const ContactUs = () => {
                 </div>
                 <div className="content">
                   <h4>Phone Us</h4>
-                  <a href="callto:+000(111)345678">+000 (111) 345 678</a>
+                  <a href="callto:+1 (518)730-8922">+1 (518)730-8922</a>
                   <br />
-                  <a href="callto:+012(345)67899">+012 (345) 678 99</a>
+                  <a href="callto:1 (518)626-1897">+1 (518)626-1897</a>
                 </div>
               </div>
             </div>

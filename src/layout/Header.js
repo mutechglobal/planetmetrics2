@@ -123,7 +123,7 @@ const DefaultHeader = () => (
                 <ul>
                   <li>
                     <i className="far fa-phone" /> <b>Call :</b>{" "}
-                    <a href="callto:+012(345)67899">(518)730-8922</a>
+                    <a href="callto:+1 (518)730-8922">+1 (518)730-8922</a>
                   </li>
                   <li>
                     <div className="social-style-one">
@@ -134,11 +134,12 @@ const DefaultHeader = () => (
                         <i className="fab fa-twitter" />
                       </a>
                       <a href="#">
-                        <i className="fab fa-youtube" />
+                      <i className="fab fa-linkedin-in" />
                       </a>
                       <a href="#">
-                        <i className="fab fa-instagram" />
+                        <i className="fab fa-youtube" />
                       </a>
+                     
                     </div>
                   </li>
                 </ul>

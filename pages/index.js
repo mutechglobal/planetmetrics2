@@ -336,8 +336,9 @@ const Index = () => {
         </div>
       </section>
       {/* Product Section End */}
+
       {/* Video Area Start */}
-      <div className="video-area">
+      {/* <div className="video-area">
         <div className="container">
           <div
             className="video-inner wow fadeInUp delay-0-2s"
@@ -353,10 +354,11 @@ const Index = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Video Area End */}
+
       {/* Special Offer Start */}
-      <section className="special-offer bg-lighter pt-250 pb-80">
+      {/* <section className="special-offer bg-lighter pt-250 pb-80">
         <div className="special-offer-content text-center py-130 rpy-100 wow fadeInUp delay-0-2s">
           <div className="section-title mb-30">
             <span className="sub-title mb-20">35% Off for Fruits</span>
@@ -405,7 +407,7 @@ const Index = () => {
           src="assets/images/offers/offer-right.png"
           alt="Offer"
         />
-      </section>
+      </section> */}
       {/* Special Offer End */}
       {/* Call To Action Area Start */}
       <section className="cta-area">
@@ -435,13 +437,15 @@ const Index = () => {
         </div>
       </section>
       {/* Call To Action Area End */}
+
       {/* Gallery Area Start */}
-      <section className="gallery-area pt-130 rpt-100">
+      {/* <section className="gallery-area pt-130 rpt-100">
         <PhotoGallery />
-      </section>
+      </section> */}
       {/* Gallery Area End */}
+
       {/* Feedback Section Start */}
-      <section className="feedback-section pt-50 rpt-20">
+      {/* <section className="feedback-section pt-50 rpt-20">
         <div className="container">
           <div className="row large-gap">
             <div className="col-lg-6">
@@ -468,8 +472,9 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Feedback Section End */}
+
       {/* News Section Start */}
       <section className="news-section pt-130 rpt-100 pb-70 rpb-40">
         <div className="container">
@@ -578,8 +583,9 @@ const Index = () => {
         </div>
       </section>
       {/* News Section End */}
+
       {/* Client Logo Section Start */}
-      <div className="client-logo-section text-center bg-light-green py-60">
+      {/* <div className="client-logo-section text-center bg-light-green py-60">
         <div className="container">
           <ClientLogoSlider />
         </div>
@@ -615,7 +621,7 @@ const Index = () => {
             alt="Shape"
           />
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };

@@ -284,8 +284,9 @@ const About = () => {
         <FeedbackTwoSlider />
       </section>
       {/* Feedback Section End */}
+
       {/* Client Logo Section Start */}
-      <div className="client-logo-section text-center bg-light-green py-60">
+      {/* <div className="client-logo-section text-center bg-light-green py-60">
         <div className="container">
           <ClientLogoSlider />
         </div>
@@ -321,7 +322,7 @@ const About = () => {
             alt="Shape"
           />
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };
