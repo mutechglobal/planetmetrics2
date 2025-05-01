@@ -232,7 +232,7 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>18</span>
+                  <span>xxx</span>
                 </span>
               </div>
             </div>
@@ -248,7 +248,7 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>18</span>
+                  <span>xxx</span>
                 </span>
               </div>
             </div>
@@ -264,7 +264,7 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>18</span>
+                  <span>xxx</span>
                 </span>
               </div>
             </div>
@@ -280,7 +280,7 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>18</span>
+                  <span>xxx</span>
                 </span>
               </div>
             </div>
@@ -421,14 +421,14 @@ const Index = () => {
             <div className="row align-items-center">
               <div className="col-lg-8">
                 <div className="section-title mt-20 mb-15">
-                  <span className="sub-title mb-15">Need Any Supports</span>
-                  <h3>Get Our Quality Foods</h3>
+                  <span className="sub-title mb-15">Need Any Support</span>
+                  <h3>Get In Touch With an Expert</h3>
                 </div>
               </div>
               <div className="col-lg-4 text-lg-right">
                 <Link href="/contact">
                   <a className="theme-btn btn-white my-15">
-                    Get In Touch <i className="fas fa-angle-double-right" />
+                    Contact Us <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
               </div>
@@ -479,8 +479,8 @@ const Index = () => {
       <section className="news-section pt-130 rpt-100 pb-70 rpb-40">
         <div className="container">
           <div className="section-title text-center mb-60">
-            <span className="sub-title mb-20">Read Article Tips</span>
-            <h2>Latest News &amp; Blog</h2>
+            <span className="sub-title mb-20">Latest Articles</span>
+            <h2>News &amp; Blog</h2>
           </div>
           <div className="row justify-content-center">
             <div className="col-xl-4 col-md-6">
@@ -554,33 +554,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="news-shapes">
-          <img
-            className="onion"
-            src="assets/images/shapes/onion.png"
-            alt="Onion"
-          />
-          <img
-            className="two-leaf"
-            src="assets/images/slider/two-lear.png"
-            alt="Leaf"
-          />
-          <img
-            className="half-leaf"
-            src="assets/images/slider/half-leaf.png"
-            alt="Leaf"
-          />
-          <img
-            className="leaf-two"
-            src="assets/images/shapes/leaf-three.png"
-            alt="Leaf"
-          />
-          <img
-            className="leaf-three"
-            src="assets/images/shapes/leaf-four.png"
-            alt="Leaf"
-          />
-        </div>
+       
       </section>
       {/* News Section End */}
 

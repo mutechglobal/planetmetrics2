@@ -31,7 +31,7 @@ const ContactUs = () => {
                   <h4>Email Us</h4>
                   <a href="mailto:info@planetmetrics.us">info@planetmetrics.us</a>
                   <br />
-                  <a href="mailto:support@planetmetrics.us">support@planetmetrics.us</a>
+                  {/* <a href="mailto:support@planetmetrics.us">support@planetmetrics.us</a> */}
                   <br />
                 </div>
               </div>
@@ -45,7 +45,8 @@ const ContactUs = () => {
                   <h4>Phone Us</h4>
                   <a href="callto:+1 (518)730-8922">+1 (518)730-8922</a>
                   <br />
-                  <a href="callto:1 (518)626-1897">+1 (518)626-1897</a>
+                  {/* <a href="callto:1 (518)626-1897">+1 (518)626-1897</a> */}
+                  <br />
                 </div>
               </div>
             </div>

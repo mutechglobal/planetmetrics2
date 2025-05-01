@@ -144,18 +144,18 @@ const DefaultFooter = () => (
               </li>
               <li>
                 <i className="far fa-envelope" />
-                <a href="calto:+012(345)67899">+1 (518)730-8922</a>
+                <a href="mailto:info@planetmetrics.us">info@planetmetrics.us</a>
               </li>
               <li>
                 <i className="far fa-phone" />
-                <a href="mailto:info@planetmetrics.us">info@planetmetrics.us</a>
+                <a href="calto:+012(345)67899">+1 (518)730-8922</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="copyright-area pt-25 pb-10">
-        <p>Copyright © 2024 Planetmetrics LLC. All Rights Reserved.</p>
+        <p>Copyright © 2025 Planetmetrics LLC. All Rights Reserved.</p>
         <ul className="footer-menu">
           <li>
             <Link href="/contact">Setting &amp; Privacy</Link>
