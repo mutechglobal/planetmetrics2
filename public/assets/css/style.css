@@ -4609,7 +4609,7 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
     font-family: "Livvic", sans-serif; }
     .product-item .price del:before,
     .product-item .price span:before {
-      content: '$'; }
+      content: none; }
   .product-item .price del {
     color: #b1b1b1; }
   .product-item .price span {
@@ -4715,7 +4715,7 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
   color: #76a713;
   font-family: "Livvic", sans-serif; }
   .product-details-content .price:before {
-    content: '$'; }
+    content: none; }
 
 .product-details-content .add-to-cart {
   display: -webkit-box;
@@ -6775,7 +6775,7 @@ blockquote {
     font-weight: 600;
     color: #76a713; }
     .widget-products ul li .content .price:before {
-      content: '$'; }
+      content: none; }
 
 .widget-about {
   z-index: 1;
@@ -7039,7 +7039,7 @@ blockquote {
     flex: none;
     width: 90px; }
   .cart-single-item .product-price:before {
-    content: '$'; }
+    content: none; }
   .cart-single-item .product-total-price {
     -webkit-box-flex: 0;
     -ms-flex: none;
@@ -7049,7 +7049,7 @@ blockquote {
     text-align: center;
     color: #1a2428; }
     .cart-single-item .product-total-price:before {
-      content: '$'; }
+      content: none; }
   @media only screen and (max-width: 767px) {
     .cart-single-item {
       text-align: center;
@@ -7087,7 +7087,7 @@ blockquote {
 .total-price:before,
 .shipping-price:before,
 .sub-total-price:before {
-  content: '$'; }
+  content: none; }
 
 .discount-wrapper input {
   max-width: 200px;

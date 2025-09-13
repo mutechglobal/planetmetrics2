@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";
@@ -18,7 +19,9 @@ const Index = () => {
   return (
     <Layout header={1}>
       {/*End Hidden Sidebar */}
+
       {/* Slider Section Start */}
+
       <section className="slider-section bg-lighter">
         <div className="main-slider-active">
           <HomeSlider1 />
@@ -35,7 +38,9 @@ const Index = () => {
         /> */}
       </section>
       {/* Slider Section End */}
+
       {/* Category Section Start */}
+
       <section className="category-section pt-130 rpt-100">
         <div className="container">
           <div className="row align-items-end pb-35">
@@ -106,7 +111,9 @@ const Index = () => {
         </div>
       </section>
       {/* Category Section End */}
+
       {/* About Section Start */}
+
       <section className="about-section pt-85 rpt-55 pb-130 rpb-100">
         <div className="container">
           <div className="row align-items-center">
@@ -122,10 +129,11 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="offer">
-                  <img src="assets/images/shapes/organic.png" alt="Offer" />
+                  <img src="assets/images/shapes/100.png" alt="100%" />
                 </div>
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="about-content rpt-65 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-35">
@@ -165,7 +173,7 @@ const Index = () => {
                     <Tab.Pane className="tab-pane fade" eventKey="agriculture">
                       <p>
                       
-                        We Drive with the purpose of producing ideas and recommendations to address the objectives of sustainable development
+                        We Drive with the purpose of producing ideas and recommendations to address the objectives of sustainable development.
                       </p>
                       <div className="author-wrap">
                         <img
@@ -176,15 +184,12 @@ const Index = () => {
                           <h4>Ujjwal Tripathi</h4>
                           <span>CEO &amp; Co-Founder</span>
                         </div>
-                        <img
-                          src="assets/images/about/signature.png"
-                          alt="Signature"
-                        />
+                
                       </div>
                     </Tab.Pane>
                     <Tab.Pane className="tab-pane fade" eventKey="vegetables">
                       <p>
-                      To create connections and efforts aimed at attaining the sustainable development goals
+                      To create connections and efforts aimed at attaining the sustainable development goals.
                       </p>
                       <div className="author-wrap">
                         <img
@@ -195,10 +200,7 @@ const Index = () => {
                           <h4>S P Tiwari</h4>
                           <span>COO &amp; Co-Founder</span>
                         </div>
-                        <img
-                          src="assets/images/about/signature.png"
-                          alt="Signature"
-                        />
+                    
                       </div>
                     </Tab.Pane>
                   </Tab.Content>
@@ -211,6 +213,7 @@ const Index = () => {
       {/* About Section End */}
     
       {/* Product Section Start */}
+
       <section className="product-section pt-100 rpt-70 pb-130 rpb-100">
         <div className="container-fluid">
           <div className="section-title text-center mb-60">
@@ -232,7 +235,7 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>xxx</span>
+                  <span>Geospatial AI to analyze earth observation data for forecasting, insights, validation, and learning.</span>
                 </span>
               </div>
             </div>
@@ -248,7 +251,7 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>xxx</span>
+                  <span>Satellite remote sensing to capture environmental data for monitoring, mapping, and decision-making.</span>
                 </span>
               </div>
             </div>
@@ -264,7 +267,7 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>xxx</span>
+                  <span>AI-driven analysis for environmental impacts, support compliance, and guide sustainable development decisions.</span>
                 </span>
               </div>
             </div>
@@ -280,7 +283,7 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>xxx</span>
+                  <span>data-driven solutions to enhance productivity, and promote eco-friendly practices in farming and forestry.</span>
                 </span>
               </div>
             </div>
@@ -296,7 +299,7 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>18</span>
+                  <span>Innovative strategies and technologies to reduce emissions and enhance resilience to climate impacts.</span>
                 </span>
               </div>
             </div>
@@ -312,26 +315,11 @@ const Index = () => {
                 </h5>
                 <span className="price">
                   
-                  <span>18</span>
+                  <span>Advanced tools and data to optimize the distribution, conservation, and sustainable use of water resources.</span>
                 </span>
               </div>
             </div>
-            <div className="product-item wow fadeInUp delay-0-2s">
-              
-              <div className="image">
-                <img src="assets/images/products/product1.png" alt="Product" />
-              </div>
-              <div className="content">
-                
-                <h5>
-                  <Link href="/product-details">Machine Learning</Link>
-                </h5>
-                <span className="price">
-                  
-                  <span>18</span>
-                </span>
-              </div>
-            </div>
+          
           </Slider>
         </div>
       </section>
@@ -409,7 +397,9 @@ const Index = () => {
         />
       </section> */}
       {/* Special Offer End */}
+
       {/* Call To Action Area Start */}
+
       <section className="cta-area">
         <div className="container">
           <div
@@ -476,6 +466,7 @@ const Index = () => {
       {/* Feedback Section End */}
 
       {/* News Section Start */}
+
       <section className="news-section pt-130 rpt-100 pb-70 rpb-40">
         <div className="container">
           <div className="section-title text-center mb-60">
